@@ -1,6 +1,6 @@
 # ManaSeedTools
 
-This repository contains work-in-progress hobbyist code and tools to work with *Mana Seed* assets in Unity.  *Mana Seed* is a trademark wholly owned by [Seliel the Shaper](https://www.patreon.com/selieltheshaper).  This reporitory is intended as a community resource to share code that may help beginning developers get stated with *Mana Seed* assets.
+This repository contains work-in-progress hobbyist code and tools to work with *Mana Seed* assets in Unity.  *Mana Seed* is a trademark owned by [Seliel the Shaper](https://www.patreon.com/selieltheshaper).  This reporitory is intended as a community resource to share code snippets and Unity Editor tools that may help developers (especially beginners like me) get stated with *Mana Seed* assets.
 
 ## Mana Seed
 
@@ -10,13 +10,13 @@ This repository contains work-in-progress hobbyist code and tools to work with *
 ## Unity
 
 - The Unity engine: <https://unity.com/products/unity-engine>
-- *Mana Seed* Assets in the Unity store: <https://assetstore.unity.com/publishers/46913>
+- *Mana Seed* assets in the Unity store: <https://assetstore.unity.com/publishers/46913>
 
 ## Mana Seed Tools
 
-This repository is designed as a separate project directory (i.e. clone the *ManaSeedTools* git repo under your project's `Assets` folder).  The tools work with *Mana Seed* assets in place (assumed a separate folder), with as little movement of the original assets or and as few custom directories as possible.  The tools are designed as small-ish modular steps to support chaining these together to do more complex work.  Ideally, this repo's tools can be re-run as necessary to interact with any future *Mana Seed* asset releases.
+This repository is designed as a separate project directory (i.e. clone the *ManaSeedTools* git repo under your project's `Assets` folder).  The tools work with *Mana Seed* assets in place (assumed a separate folder), with as little movement as possible of the original *Mana Seed* assets and as few custom directories as possible.  The tools are designed as small-ish modular steps to support chaining utilities together to do more complex (or repetitive) work.  Ideally, users can re-run this repo's tools as necessary to interact with future *Mana Seed* releases and update pre-existing game prefabs made assets from older versions.
 
-This repository uses `namespace ManaSeedTools`.  At least the [Mana Seed Character Animator](https://feendrache.itch.io/mana-seed-character-animator-for-unity) used this namespace base as `namespace ManaSeedTools.CharacterAnimator`.  Since [MSCA](https://schattenhandel.de/msca/msca-tutorial-version-2-x/) is not being maintained as of JUN 2024, hopefully there will be no future conflicts with the namespace and plain naming techniques, such as this repo's use of `ManaSeedTools.FarmerSpriteSystem`.
+This repository uses `namespace ManaSeedTools`.  At least the [Mana Seed Character Animator](https://feendrache.itch.io/mana-seed-character-animator-for-unity) used this namespace base as `namespace ManaSeedTools.CharacterAnimator`.  Since [MSCA](https://schattenhandel.de/msca/msca-tutorial-version-2-x/) is not being maintained as of JUN 2024, hopefully there will be no future conflicts with the namespace and plain naming techniques in the `ManaSeedTools` namespace.
 
 ### Mana Seed Farmer Sprite Importer
 
